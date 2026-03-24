@@ -12,7 +12,7 @@
 		"dev": "astro dev",
 		"start": "astro dev",
 		"build:ci": "pnpm openapi-ts && pnpm astro build",
-		"build": "pnpm astro build",
+		"build": "astro build",
 		"astro": "astro",
 		"lint": "astro sync && run-s --continue-on-error lint:*",
 		"lint:biome": "biome lint src",
